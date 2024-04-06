@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #487eb0;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.container {
+  width: 350px;
+  padding: 20px;
+  background-color: #70a1ff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.input-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-radius: 10px;
+  border: 3px solid #3742fa;
+  overflow: hidden;
+  padding: 2px;
+  background-color: #ffffff;
+}
+.cityInput {
+  flex: 1;
+  height: 30px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  padding-left: 8px;
+}
+.search-icon {
+  align-items: center;
+  display: flex;
+  padding-right: 8px;
+  cursor: pointer;
+}
+.image {
+  text-align: center;
+}
+.temp,
+.location,
+.country {
+  margin-top: 5px;
+  font-size: 35px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.temp {
+  font-weight: 500;
+}
+.location {
+  color: #fbc531;
+  font-weight: 400;
+  font-size: 40px;
+}
+.country {
+  font-size: 22px;
+  color: #f1f2f6;
+  font-weight: 500;
+}
+.cord {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  text-align: center;
+  gap: 15px;
+}
+.cord div {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: center;
+}
+.cord div span:nth-child(1) {
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.cord div span:nth-child(2) {
+  font-size: 28px;
+  font-weight: 600;
+
+  padding-top: 5px;
+}
+.data-container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 5px;
+  align-items: center;
+  color: #ffffff;
+  margin-top: 15px;
+}
+.data {
+  /* display: flex;
+  flex-direction: row; */
+  gap: 2px;
+  margin: 2px;
+  padding: 5px;
+}
+.element,
+.element-1 {
+  font-size: 20px;
+  font-weight: 300;
+}
+.humidity-percent {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.loading,
+.error,
+.city-not-found {
+  margin-top: 10px;
+  color: #888;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+
+}
